@@ -1,0 +1,256 @@
+@font-face {
+  font-family: f1;
+  src: url(./sf-pro-display_bold.woff2);
+}
+@font-face {
+  font-family: f2;
+  src: url(./sf-pro-icons_regular.woff2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: f1;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.nav{  
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap : 45px;
+  position: fixed;
+  background-color: #FFFFFF;
+}
+.nav h4{
+  font-weight: 10;
+  font-size: 12px;
+}
+
+.center{
+  height: 76%;
+  width: 100%;
+  font-size: 26px;
+  text-align : center;
+  padding: 60px 80px;
+  background-image: url(./hero_iphone_17_pro__bknyzxfk2agi_largetall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F5F5F7;
+}
+.center h1{
+  font-size: 55px;
+}
+.center h5{
+  font-size: 25px;
+  padding-top: 13px;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  gap : 15px;
+}
+.links button{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 13px 23px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#first{
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+#second{
+  background-color: rgb(30, 13, 13);
+  color: royalblue;
+  border: 2px solid royalblue;
+  border-radius: 25px;
+}
+#second:hover{
+  background-color: royalblue;
+  color: white;
+}
+
+.mid{
+  height: 73%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  background-image: url(./hero_iphone_air__0gxyavihpiqu_largetall.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F5F5F7;
+}
+.mid h1{
+  font-size: 50px;
+}
+.mid p{
+  font-size: 27px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fir{
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+.sec{
+  background-color: #F5F5F7;
+  color: royalblue;
+  border: 2px solid royalblue;
+}
+.sec:hover{
+  background-color:royalblue;
+  color: #F5F5F7;
+}
+
+.bottom{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 8px;
+}
+.card1{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_iphone_17__bhofuohbsu3m_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card1 h1{
+  font-size: 40px;
+}
+.card1 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
+.bottom-links button{
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.one{
+  background-color: royalblue;
+  color: #F5F5F7;
+  border: none;
+}
+.two{
+  background-color: #F5F5F7;
+  color:royalblue;
+  border: 2px solid royalblue;
+}
+.two:hover{
+  background-color:royalblue;
+  color: #F5F5F7;
+}
+.card2{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_icloud_plus__d4639vh3tz2a_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card2 h1{
+  font-size: 40px;
+}
+.card2 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
+.card3{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card3 h1{
+  font-size: 40px;
+}
+.card3 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
+.card4{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_airpodspro_3__f6xmza7bglei_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card4 h1{
+  font-size: 40px;
+}
+.card4 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
+.card5{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_ipad_air__bfbxzvw65c02_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card5 h1{
+  font-size: 40px;
+}
+.card5 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
+.card6{
+  height: 500px;
+  width: 930px;
+  margin: 5px 0px;
+  background-image: url(./promo_iphone_tradein__bugw15ka691e_large.jpg);
+  background-position: center;
+  background-color: #F5F5F7;
+  object-fit: cover;
+  padding-top: 20px;
+}
+.card6 h1{
+  font-size: 40px;
+}
+.card6 p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: f2;
+}
